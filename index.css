@@ -1,6 +1,6 @@
 *{
     margin: 0px;
-    }
+}
 
 /* Paleta de cores */
 :root{
@@ -13,5 +13,74 @@
     --gray-20: #93918D;
     --gray-30: #4A4947;
     --error: #FF0000;
-    }
+}
+
+/* Padrão */
+body{
+    background-color: var(--light);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+/* fonte super-large */
+main section h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    display: flex;
+    padding-bottom: 30px;
+    color: var(--dark);
+}
+
+/* fonte large */
+main section h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    color: var(--dark);
+}
+
+/* fonte medium */
+main section h3, main section a{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: var(--dark);
+}
+
+/* fonte small */
+main section h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: var(--dark);
+}
+
+/* fonte smaller */
+main section h5{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 11px;
+    color: var(--dark);
+}
+
+/* Todos os web containers */
+div.webcontainer{
+    width: 100vw;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Main components */
+main section, header, footer{
+    width: 1020px;
+    background-clip: border-box;
+}
 
