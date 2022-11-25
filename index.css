@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    }
+
+/* Paleta de cores */
+:root{
+    --light: #F5F2EB;
+    --yellow: #FDC827;
+    --green: #04BA71;
+    --dark: #072C35;
+    --darkcyan: #04454D;
+    --gray-10: #DDDAD4;
+    --gray-20: #93918D;
+    --gray-30: #4A4947;
+    --error: #FF0000;
+    }
+
