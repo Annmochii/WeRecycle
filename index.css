@@ -15,58 +15,123 @@
     --error: #FF0000;
 }
 
+/* Fontes */
+main section h1, main section h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--dark);
+}
+
+main section h3, main section a, main section h4, main section h5{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--dark);
+}
+
+/* Fonte super-large */
+main section h1{
+    font-size: 30px;
+    display: flex;
+    padding-bottom: 30px;
+}
+
+/* Fonte large */
+main section h2{
+    font-size: 24px;
+}
+
+/* Fonte medium */
+main section h3, main section a{
+    font-size: 16px;
+}
+
+/* Fonte small */
+main section h4{
+    font-size: 14px;
+}
+
+/* Fonte smaller */
+main section h5{
+    font-size: 11px;
+}
+
+/* Botões - geral */
+button.neutral, button.yellowneutral, button.special, button.positive, button.negative{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 0px;
+    text-decoration: none;
+    display: inline-block;
+    align-items: center;
+    padding-block: 13px;
+}
+
+button.special, button.positive, button.negative{ border: none; }
+
+button.neutral, button.yellowneutral, button.negative:hover{ background-color: transparent; }
+
+/* Botões Neutros */
+button.neutral{
+    border: 1.5px solid var(--darkcyan);
+    color: var(--darkcyan);
+}
+
+button.yellowneutral:hover{
+    background-color: var(--darkcyan);
+    color: var(--light);
+}
+
+button.yellowneutral{
+    border: 1.5px solid var(--yellow);
+    color: var(--yellow);
+}
+
+button.yellowneutral:hover{
+    background-color: var(--yellow);
+    color: var(--light);
+}
+
+/* Botão Especial */
+button.special{
+    background-color: var(--yellow);
+    color: var(--dark);
+}
+
+button.special:hover{
+    background-color: #ECA824;
+}
+
+/* Botão Positivo */
+button.positive{
+    background-color: var(--green);
+    color: var(--light);
+}
+
+button.positive:hover{
+    background-color: #008C6B;
+}
+
+/* Botão Negativo */
+button.negative{
+    background-color: var(--error);
+    color: var(--light);
+}
+
+button.negative:hover{
+    border: 1.5px solid var(--error);
+}
+
 /* Padrão */
 body{
     background-color: var(--light);
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-}
-
-/* fonte super-large */
-main section h1{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 30px;
-    display: flex;
-    padding-bottom: 30px;
-    color: var(--dark);
-}
-
-/* fonte large */
-main section h2{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 24px;
-    color: var(--dark);
-}
-
-/* fonte medium */
-main section h3, main section a{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 16px;
-    color: var(--dark);
-}
-
-/* fonte small */
-main section h4{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 14px;
-    color: var(--dark);
-}
-
-/* fonte smaller */
-main section h5{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 11px;
-    color: var(--dark);
 }
 
 /* Todos os web containers */
@@ -84,3 +149,21 @@ main section, header, footer{
     background-clip: border-box;
 }
 
+/* Barra de navegação */
+#navlogin{ padding-inline: 38px; }
+
+#navlogin:hover{ color: var(--darkcyan); }
+
+#navsignup{ padding-inline: 22px; }
+
+/* Primeira página */
+
+/* Sobre */
+
+/* Notícias */
+
+/* Equipe */
+
+
+
+/* Footer */
