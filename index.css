@@ -149,6 +149,10 @@ main section, header, footer{
     background-clip: border-box;
 }
 
+
+
+
+
 /* Barra de navegação */
 #navlogin{ padding-inline: 38px; }
 
@@ -164,6 +168,24 @@ main section, header, footer{
 
 /* Equipe */
 
+div#team, section#equipe, section#pictures{
+    background-color: #F9DD89;
+}
+
+section#equipe{
+    align-items:left;
+}
+
+div#teamcomponents{
+    width: 410;
+    height: 430;
+}
+
 .know{ padding-inline: 170.5px; }
 
 /* Footer */
+
+div#footer, footer{
+    background-color: var(--darkcyan);
+    color: var(--light);
+}
