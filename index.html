@@ -58,39 +58,41 @@
         <div class="webcontainer" id="about"> <!--Sobre nós-->
             <section id="sobre">
                 <h1 id="aboutus">Sobre nós</h1>
-                <a><!--texto--></a>
+                <p><!--texto--></p>
                 <div id="aboutimg"></div> <!--foto-->
             </section>
         </div>
         <div class="webcontainer" id="news"> <!--Notícias-->
             <section id="noticias">
                 <h1 id="newstitle">Notícias</h1>
-                <div class="grid">
+                <div class="leftarrow" id="lnewsarrow"></div>
+                <div id="newscarrossel">
                     <div class="report" id="rep1">  <!--reportagem 1-->
                         <div class="reportimg" id="repimg1"></div> <!--foto da reportagem 1-->
                         <h3 class="topic">Informativo</h3>
                         <h2 class="headline">Para onde vai seu lixo?</h2>
-                        <a class="description">Descubra para onde seu lixo é transportado após a coleta</a>
+                        <p class="description">Descubra para onde seu lixo é transportado após a coleta</p>
                     </div>
                     <div class="report" id="rep2">  <!--reportagem 2-->
                         <div class="reportimg" id="repimg2"></div> <!--foto da reportagem 2-->
                         <h3 class="topic">Reciclagem</h3>
                         <h2 class="headline">Recicle em casa</h2>
-                        <a class="description">Ideias para criar decorações com materiais recicláveis no conforto de sua casa!</a>
+                        <p class="description">Ideias para criar decorações com materiais recicláveis no conforto de sua casa!</p>
                     </div>
                     <div class="report" id="rep3">  <!--reportagem 3-->
                         <div class="reportimg" id="repimg3"></div> <!--foto da reportagem 3-->
                         <h3 class="topic">Tecnologia</h3>
                         <h2 class="headline">Vantagens do Eletronic Recycling</h2>
-                        <a class="description">A tecnologia está transformando o mundo!<br>Conheça as vantagens da reciclagem eletrônica.</a>
+                        <p class="description">A tecnologia está transformando o mundo!<br>Conheça as vantagens da reciclagem eletrônica.</p>
                     </div>
                     <div class="report" id="rep4"> <!--reportagem 4-->
                         <div class="reportimg" id="repimg4"></div> <!--foto da reportagem 4-->
                         <h3 class="topic">Comunidade</h3>
                         <h2 class="headline">Evento: Limpe a Praia!</h2>
-                        <a class="description">Venha participar do evento comemorativo de 1 ano da WeRecycle.</a>
+                        <p class="description">Venha participar do evento comemorativo de 1 ano da WeRecycle.</p>
                     </div>
                 </div>
+                <div class="rightarrow" id="rnewsarrow"></div>
                 <div id="show"> <!--botão veja mais-->
                     <h3>veja mais</h3>
                     <div id="showarrow"></div>
@@ -101,36 +103,38 @@
             <section id="equipe">
                 <div id="teamcomponents">
                     <h1 id="meet">Conheça nossa equipe!</h1>
-                    <div class="team" id="analaura">
-                        <h2 class="name" id="aura">Ana Laura Brito</h2>
-                        <h4 class="role">Estudante de Ciências da Computação</h4>
-                        <a class="bio" id="aura">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco...</a> <!--bio da Aura-->
-                        <br>
-                        <a href="https://aurahtml.github.io/PortfolioWEB/" target="_blank"><button type="button" class="positive know" id="knowaura">Saiba mais</button></a> 
-                    </div>
-                    <div class="team" id="annamaria">
-                        <h2 class="name" id="anna">Anna Maria Lima</h2>
-                        <h4 class="role">Estudante de Ciências da Computação</h4>
-                        <a class="bio" id="anna">Sou uma designer e programadora especialista na criação de interfaces. Estudo Ciências da Computação na Universidade de Vila Velha e UX e UI Design na Escola Britânica de Artes Criativas.</a> <!--bio da Anna-->
-                        <br>
-                        <a href="https://annmochii.github.io/Portfolio/" target="_blank"><button type="button" class="positive know" id="knowanna">Saiba mais</button></a>
-                    </div>
-                    <div class="team" id="eloisa">
-                        <h2 class="name" id="elo">Eloisa Pajehú</h2>
-                        <h4 class="role">Estudante de Ciências da Computação</h4>
-                        <a class="bio" id="elo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco...</a> <!--bio da Eloisa-->
-                        <br>
-                        <a href="https://eloisapsl.github.io/ConWeb/" target="_blank"><button type="button" class="positive know" id="knowelo">Saiba mais</button></a>  
-                    </div>
-                    <div class="team" id="raquel">
-                        <h2 class="name" id="rach">Raquel Rigoni</h2>
-                        <h4 class="role">Estudante de Ciências da Computação</h4>
-                        <a class="bio" id="rach">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco...</a> <!--bio da Raquel-->
-                        <br>
-                        <a href="https://raqs-bot.github.io/Portfolio/" target="_blank"><button type="button" class="positive know" id="knowrach">Saiba mais</button></a>
+                    <div id="membercomponents">
+                        <div class="team" id="analaura">
+                            <h2 class="name" id="aura">Ana Laura Brito</h2>
+                            <h4 class="role">Estudante de Ciências da Computação</h4>
+                            <p class="bio" id="aura">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco...</p> <!--bio da Aura-->
+                            <br>
+                            <a href="https://aurahtml.github.io/PortfolioWEB/" target="_blank"><button type="button" class="positive know" id="knowaura">Saiba mais</button></a> 
+                        </div>
+                        <div class="team" id="annamaria">
+                            <h2 class="name" id="anna">Anna Maria Lima</h2>
+                            <h4 class="role">Estudante de Ciências da Computação</h4>
+                            <p class="bio" id="anna">Sou uma designer e programadora especialista na criação de interfaces. Estudo Ciências da Computação na Universidade de Vila Velha e UX e UI Design na Escola Britânica de Artes Criativas.</p> <!--bio da Anna-->
+                            <br>
+                            <a href="https://annmochii.github.io/Portfolio/" target="_blank"><button type="button" class="positive know" id="knowanna">Saiba mais</button></a>
+                        </div>
+                        <div class="team" id="eloisa">
+                            <h2 class="name" id="elo">Eloisa Pajehú</h2>
+                            <h4 class="role">Estudante de Ciências da Computação</h4>
+                            <p class="bio" id="elo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco...</p> <!--bio da Eloisa-->
+                            <br>
+                            <a href="https://eloisapsl.github.io/ConWeb/" target="_blank"><button type="button" class="positive know" id="knowelo">Saiba mais</button></a>  
+                        </div>
+                        <div class="team" id="raquel">
+                            <h2 class="name" id="rach">Raquel Rigoni</h2>
+                            <h4 class="role">Estudante de Ciências da Computação</h4>
+                            <p class="bio" id="rach">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco...</p> <!--bio da Raquel-->
+                            <br>
+                            <a href="https://raqs-bot.github.io/Portfolio/" target="_blank"><button type="button" class="positive know" id="knowrach">Saiba mais</button></a>
+                        </div>
                     </div>
                 </div>
-                <div id="carrosselarrow"></div>
+                <div class="leftarrow" id="carrosselarrow"></div>
             </section>
             <section id="pictures">
                 <div class="pics" id="aura"></div> <!--foto da Aura-->

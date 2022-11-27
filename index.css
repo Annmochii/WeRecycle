@@ -43,7 +43,7 @@ main section h2{
 }
 
 /* Fonte medium */
-main section h3, main section a{
+main section h3, main section p{
     font-size: 16px;
 }
 
@@ -174,12 +174,34 @@ div#team, section#equipe, section#pictures{
 
 section#equipe{
     align-items:left;
+    justify-content: left;
 }
 
 div#teamcomponents{
-    width: 410;
-    height: 430;
+    margin-block: 124px 129px;
+    width: 1440px;
+    height: 780px;
 }
+
+div#membercomponents{
+    display: flex;
+}
+
+div.team{
+    width: 410px;
+    height: 430px;
+    display: block;
+}
+
+div.team a{
+    width: 100%;
+}
+
+div.team, div.team a{
+    align-items:left;
+    justify-content: left;
+}
+
 
 .know{ padding-inline: 170.5px; }
 
