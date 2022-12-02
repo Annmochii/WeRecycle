@@ -21,6 +21,7 @@ main section h1, main section h2{
     font-weight: 700;
     font-style: normal;
     color: var(--dark);
+    text-decoration: none;
 }
 
 main section h3, main section a, main section h4, main section h5{
@@ -28,6 +29,7 @@ main section h3, main section a, main section h4, main section h5{
     font-weight: 400;
     font-style: normal;
     color: var(--dark);
+    text-decoration: none;
 }
 
 /* Fonte super-large */
@@ -45,6 +47,12 @@ main section h2{
 /* Fonte medium */
 main section h3, main section p{
     font-size: 16px;
+}
+
+/* Fonte medium */
+main section h3.clickable{
+    font-size: 16px;
+    text-decoration: underline;
 }
 
 /* Fonte small */

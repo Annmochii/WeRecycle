@@ -15,7 +15,7 @@
     <div class="webcontainer" id="header"> <!--Barra de navegação-->
         <header>
             <div id="hero">
-                <div id="logo"></div> <!--logo-->
+                <div id="headerlogo"></div> <!--logo-->
             </div>
             <nav>
                 <ul>
@@ -128,7 +128,7 @@
                         <div class="team" id="raquel">
                             <h2 class="name" id="rach">Raquel Rigoni</h2>
                             <h4 class="role">Estudante de Ciências da Computação</h4>
-                            <p class="bio" id="rach">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco...</p> <!--bio da Raquel-->
+                            <p class="bio" id="rach">Tenho 21 anos sou estudante na Universidade de Vila Velha com foco principal em gerenciamento de dados e desenvolvimento de software.</p> <!--bio da Raquel-->
                             <br>
                             <a href="https://raqs-bot.github.io/Portfolio/" target="_blank"><button type="button" class="positive know" id="knowrach">Saiba mais</button></a>
                         </div>
@@ -147,17 +147,51 @@
     <div class="webcontainer" id="footer">
         <footer>
             <h1 id="contact">Contato</h1>
+            <div class="footerdiv" id="footerabout"> <!--sobre-->
+                <div id="footerlogo"></div>
+                <p>A WeRecycle é um projeto criado com intuito educativo por uma instituição privada e seus alunos, e tem como objetivo aprimorar o conhecimento adquirido ao longo do primeiro semestre do curso de Ciência da Computação.</p>
+            </div>
+            <div class="footerdiv" id="socials"> <!--redes sociais-->
+                <h3 class="footertitle">Redes sociais</h3>
+                <div class="redesocial">
+                    <div id="facebookicon"></div> <!--ícone do facebook-->
+                    <h3 class="clickable" id="facebooklink">WeRecycle</h3>
+                </div>
+                <div class="redesocial">
+                    <div id="instagramicon"></div> <!--ícone do instagram-->
+                    <h3 class="clickable" id="instagramlink">WeRecycle</h3>
+                </div>
+                <div class="redesocial">
+                    <div id="twittericon"></div> <!--ícone do twitter-->
+                    <h3 class="clickable" id="twitterlink">WeRecycle</h3>
+                </div>
+                <div class="redesocial">
+                    <div id="emailicon"></div> <!--ícone do email-->
+                    <h3 id="email">WeRecycle</h3>
+                </div>
+            </div>
+            <div class="footerdiv" id="footeraddress"> <!--endereço-->
+                <h3 class="footertitle">Endereço</h3>
+                <div>
+                    <div id="pinicon"></div> <!--ícone do endereço-->
+                    <p>Av. Comissário José Dantas de Mello, 21. <br> Boa Vista - Vila Velha ES. <br> CEP 29102-902.</p>
+                </div>
+            </div>
+            <div class="footerdiv" id="footercontact"> <!--contato-->
+                <h3 class="footertitle">Contato</h3>
+                <p>Entre em contato conosco para dúvidas, sugestões e outras informações!</p>
                 <form action="/action_page.php">
                     <div id="form">
-                        <input type="text" class="form" id="nome" placeholder="Nome" required><br>
-                        <input type="text" class="form" id="email" placeholder="E-mail" required>
-                        <input type="text" class="form" id="telefone" placeholder="Telefone">
+                        <input type="text" class="form" id="nome" placeholder="Nome" required>
+                        <input type="text" class="form" id="sobrenome" placeholder="Sobrenome" required><br>
+                        <input type="text" class="form" id="email" placeholder="E-mail" required><br>
                     </div>
                     <br>
                     <textarea class="form" id="mensagem" rows="10" cols="30" placeholder="Nos conte como podemos ajudar..."></textarea>
                     <br><br>
                     <a href="./scr/index.html"><input type="submit" class="buttom" value="Enviar mensagem"></a>
                 </form>
+            </div>
         </footer>
     </div>
     <script src="index.js"></script>
