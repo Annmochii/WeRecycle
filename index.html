@@ -7,6 +7,7 @@
     <title>WeRecycle</title>
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="stylesheet" href="team.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -19,10 +20,10 @@
             </div>
             <nav>
                 <ul>
-                    <li><h5 href="#about">Sobre</h5></li>
-                    <li><h5 href="#news">Notícias</h5></li>
-                    <li><h5 href="faq.html">FAQ</h5></li>
-                    <li><h5 href="#footer">Contato</h5></li>
+                    <li><a href="#about"><h5>Sobre</h5></a></li>
+                    <li><a href="#news"><h5>Notícias</h5></a></li>
+                    <li><a href="faq.html"><h5>FAQ</h5></a></li>
+                    <li><a href="#footer"><h5>Contato</h5></a></li>
                 </ul>
                 <button type="button" class="yellowneutral" id="navlogin"><a>Log In</a></button> 
                 <button type="button" class="special" id="navsignup"><a>Cadastre-se</a></button>  
@@ -65,37 +66,49 @@
         <div class="webcontainer" id="news"> <!--Notícias-->
             <section id="noticias">
                 <h1 id="newstitle">Notícias</h1>
-                <div class="leftarrow" id="lnewsarrow"></div>
+                <div class="arrowcontainer newarrowcontainer" id="lnewarrowcontainer"><div class="newarrow leftarrow" id="lnewsarrow"></div></div>
                 <div id="newscarrossel">
                     <div class="report" id="rep1">  <!--reportagem 1-->
                         <div class="reportimg" id="repimg1"></div> <!--foto da reportagem 1-->
                         <h3 class="topic">Informativo</h3>
                         <h2 class="headline">Para onde vai seu lixo?</h2>
                         <p class="description">Descubra para onde seu lixo é transportado após a coleta</p>
+                        <a><button type="button" class="special show"> <!--botão veja mais-->
+                            <h3>veja mais</h3>
+                            <div class="showarrow"></div>
+                        </button></a>
                     </div>
                     <div class="report" id="rep2">  <!--reportagem 2-->
                         <div class="reportimg" id="repimg2"></div> <!--foto da reportagem 2-->
                         <h3 class="topic">Reciclagem</h3>
                         <h2 class="headline">Recicle em casa</h2>
                         <p class="description">Ideias para criar decorações com materiais recicláveis no conforto de sua casa!</p>
+                        <a><button type="button" class="special show"> <!--botão veja mais-->
+                            <h3>veja mais</h3>
+                            <div class="showarrow"></div>
+                        </button></a>
                     </div>
                     <div class="report" id="rep3">  <!--reportagem 3-->
                         <div class="reportimg" id="repimg3"></div> <!--foto da reportagem 3-->
                         <h3 class="topic">Tecnologia</h3>
                         <h2 class="headline">Vantagens do Eletronic Recycling</h2>
                         <p class="description">A tecnologia está transformando o mundo!<br>Conheça as vantagens da reciclagem eletrônica.</p>
+                        <a><button type="button" class="special show"> <!--botão veja mais-->
+                            <h3>veja mais</h3>
+                            <div class="showarrow"></div>
+                        </button></a>
                     </div>
                     <div class="report" id="rep4"> <!--reportagem 4-->
                         <div class="reportimg" id="repimg4"></div> <!--foto da reportagem 4-->
                         <h3 class="topic">Comunidade</h3>
                         <h2 class="headline">Evento: Limpe a Praia!</h2>
-                        <p class="description">Venha participar do evento comemorativo de 1 ano da WeRecycle.</p>
+                        <p class="description">Venha participar do evento comemorativo de 1 ano da WeRecycle. Nos dias 2 e 3 de Julho a WeRecycle e seus membros estarão na praia do Morro em Guarapa... </p>
+                        <a><button type="button" class="special show"> <!--botão veja mais-->
+                            <h3>veja mais</h3>
+                            <div class="showarrow"></div>
+                        </button></a>
                     </div>
-                    <div class="rightarrow" id="rnewsarrow"></div>
-                    <div id="show"> <!--botão veja mais-->
-                        <h3>veja mais</h3>
-                        <div id="showarrow"></div>
-                    </div>
+                    <div class="arrowcontainer newarrowcontainer" id="rnewarrowcontainer"><div class="newarrow rightarrow" id="rnewsarrow"></div></div>
                 </div>
             </section>
         </div>
@@ -106,43 +119,51 @@
                         <h1 id="meet">Conheça nossa equipe!</h1>
                         <div id="membercomponents">
                             <div class="team" id="analaura">
-                                <h2 class="name" id="aura">Ana Laura Brito</h2>
-                                <h4 class="role">Estudante de Ciências da Computação</h4>
-                                <p class="bio" id="aura">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco...</p> <!--bio da Aura-->
-                                <br>
+                                <div class="memberinfo">
+                                    <h2 class="name" id="aura">Ana Laura Brito</h2>
+                                    <h4 class="role">Estudante de Ciências da Computação</h4>
+                                    <p class="bio" id="aura">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco...</p> <!--bio da Aura-->
+                                    <br>
+                                </div>
                                 <a href="https://aurahtml.github.io/PortfolioWEB/" target="_blank"><button type="button" class="positive know" id="knowaura">Saiba mais</button></a> 
                             </div>
                             <div class="team" id="annamaria">
-                                <h2 class="name" id="anna">Anna Maria Lima</h2>
-                                <h4 class="role">Estudante de Ciências da Computação</h4>
-                                <p class="bio" id="anna">Sou uma designer e programadora especialista na criação de interfaces. Estudo Ciências da Computação na Universidade de Vila Velha e UX e UI Design na Escola Britânica de Artes Criativas.</p> <!--bio da Anna-->
-                                <br>
+                                <div class="memberinfo">
+                                    <h2 class="name" id="anna">Anna Maria Lima</h2>
+                                    <h4 class="role">Estudante de Ciências da Computação</h4>
+                                    <p class="bio" id="anna">Sou uma designer e programadora especialista na criação de interfaces. Estudo Ciências da Computação na Universidade de Vila Velha e UX e UI Design na Escola Britânica de Artes Criativas.</p> <!--bio da Anna-->
+                                    <br>
+                                </div>
                                 <a href="https://annmochii.github.io/Portfolio/" target="_blank"><button type="button" class="positive know" id="knowanna">Saiba mais</button></a>
                             </div>
                             <div class="team" id="eloisa">
-                                <h2 class="name" id="elo">Eloisa Pajehú</h2>
-                                <h4 class="role">Estudante de Ciências da Computação</h4>
-                                <p class="bio" id="elo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco...</p> <!--bio da Eloisa-->
-                                <br>
+                                <div class="memberinfo">
+                                    <h2 class="name" id="elo">Eloisa Pajehú</h2>
+                                    <h4 class="role">Estudante de Ciências da Computação</h4>
+                                    <p class="bio" id="elo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco...</p> <!--bio da Eloisa-->
+                                    <br>
+                                </div>
                                 <a href="https://eloisapsl.github.io/ConWeb/" target="_blank"><button type="button" class="positive know" id="knowelo">Saiba mais</button></a>  
                             </div>
                             <div class="team" id="raquel">
-                                <h2 class="name" id="rach">Raquel Rigoni</h2>
-                                <h4 class="role">Estudante de Ciências da Computação</h4>
-                                <p class="bio" id="rach">Tenho 21 anos sou estudante na Universidade de Vila Velha com foco principal em gerenciamento de dados e desenvolvimento de software.</p><br> <!--bio da Raquel-->
-                                <br>
+                                <div class="memberinfo">
+                                    <h2 class="name" id="rach">Raquel Rigoni</h2>
+                                    <h4 class="role">Estudante de Ciências da Computação</h4>
+                                    <p class="bio" id="rach">Tenho 21 anos sou estudante na Universidade de Vila Velha com foco principal em gerenciamento de dados e desenvolvimento de software.</p><br> <!--bio da Raquel-->
+                                    <br>
+                                </div>
                                 <a href="https://raqs-bot.github.io/Portfolio/" target="_blank"><button type="button" class="positive know" id="knowrach">Saiba mais</button></a>
                             </div>
                         </div>
                     </div>
-                    <div class="leftarrow" id="carrosselarrow"></div>
+                    <div class="arrowcontainer" id="carrosselarrowcontainer"><div class="leftarrow" id="carrosselarrow"></div></div>
                 </div>
-                <div id="pictures">
+                <section class="regular slider" id="pictures">
                     <div class="pics" id="aura"></div> <!--foto da Aura-->
                     <div class="pics" id="anna"></div> <!--foto da Anna-->
                     <div class="pics" id="elo"></div> <!--foto da Eloisa-->
                     <div class="pics" id="rach"></div> <!--foto da Raquel-->
-                </div>
+                </section>
             </section>
         </div>
     </main>
@@ -196,6 +217,8 @@
             </div>
         </footer>
     </div>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
     <script src="index.js"></script>
 </body>
 </html>
