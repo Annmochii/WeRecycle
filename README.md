@@ -1,7 +1,7 @@
 # WeRecycle
 
-**Professores:** Otávio Lube dos Santos, Abrantes Araújo Silva Filho e Susiléia dos Santos Abreu
-**Disciplinas:** Construção de Software para Web, Design e Desenvolvimento de Banco de Dados e Experiência e Interface com o Usuário
+**Professores:** Otávio Lube dos Santos, Abrantes Araújo Silva Filho e Susiléia dos Santos Abreu  
+**Disciplinas:** Construção de Software para Web, Design e Desenvolvimento de Banco de Dados e Experiência e Interface com o Usuário  
 **Turma:** CC1M (2022/2)  
 **Instituição:** Universidade de Vila Velha  
 
