@@ -1,4 +1,4 @@
-# WeRecycle
+# 🌱 WeRecycle
 
 **Professores:** Otávio Lube dos Santos, Abrantes Araújo Silva Filho e Susiléia dos Santos Abreu  
 **Disciplinas:** Construção de Software para Web, Design e Desenvolvimento de Banco de Dados e Experiência e Interface com o Usuário  
