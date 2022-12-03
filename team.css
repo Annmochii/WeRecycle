@@ -1,14 +1,13 @@
 .slider {
-    width: 50%;
-    margin: 100px auto;
+    width: 50.694444444444444444444444444444vw;
+}
+
+.slick-prev{
+    display: none !important;
 }
 
 .slick-slide {
-    margin: 0px 20px;
-}
-
-.slick-slide img {
-    width: 100%;
+    margin: 0px 31px 0px 0px;
 }
 
 .slick-prev:before,
@@ -19,9 +18,7 @@
 
 .slick-slide {
     transition: all ease-in-out .3s;
-    width: 150px;
-    height: 500px;
-    
+    height: 48.796296296296296296296296296296vh;
 }
 
 
@@ -44,10 +41,10 @@
 
 .slick-active {
     background-color: black;
+    width: 10.833333333333333333333333333333vw !important;
 }
 
 .slick-current {
-    width: 450px !important;
-    height: 500px;
+    width: 30.138888888888888888888888888889vw !important;
     background-color: black;
 }

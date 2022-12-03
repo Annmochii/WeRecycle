@@ -337,6 +337,10 @@ div#carrosselarrow{
     height: 35px;
 }
 
+section#pictures{
+    height: 527px;
+}
+
 div.pics{
     height: 527px;
     width: 434px;
