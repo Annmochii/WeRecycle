@@ -19,11 +19,11 @@ Foi feito em grupo com foco principal em criar um website especializado na colet
   
   ## Tarefas
 
-- ◻️ Home single-page, com:  
-    - ◻️ Página principal  
-    - ◻️ Portfólio  
-    - ✅ Equipe  
-    - ◻️ Contato existente e funcional  
-- ◻️ Upload no Github e ink no Github pages  
-- ◻️ Upload no servidor da UVV  
-- ◻️ Fluxo de integração com o Github Actions  
+◻️ Home single-page, com:  
+    ◻️ Página principal  
+    ◻️ Portfólio  
+    ✅ Equipe  
+    ◻️ Contato existente e funcional  
+◻️ Upload no Github e ink no Github pages  
+◻️ Upload no servidor da UVV  
+◻️ Fluxo de integração com o Github Actions  
