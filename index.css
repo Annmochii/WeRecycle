@@ -24,7 +24,7 @@ main section h1, main section h2{
     text-decoration: none;
 }
 
-main section h3, main section a, main section h4, main section h5{
+main section h3, main section p, main section h4, main section h5{
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -77,7 +77,7 @@ button.neutral, button.yellowneutral, button.special, button.positive, button.ne
     text-decoration: none;
     display: inline-block;
     align-items: center;
-    padding-block: 13px;
+    padding: 13px;
 }
 
 button.special, button.positive, button.negative{ border: none; }
@@ -181,15 +181,31 @@ div#team, section#equipe, section#pictures{
 }
 
 section#equipe{
-    align-items:left;
-    justify-content: left;
+    display:flex;
+    margin-block: 124px 129px;
+}
+
+div#teambox{
+    height: 527px;
+    width: 410px;
+    margin-right: 92px;
+    flex-direction: column;
 }
 
 div#teamcomponents{
-    margin-block: 124px 129px;
-    width: 1440px;
-    height: 780px;
+    align-items: top;
+    justify-content: left;
+    height: 450px;
+    align-self: flex-start;
 }
+
+div#teamcomponents h1{
+    align-items: center;
+    justify-content: left;
+    font-size: 41px;
+    padding-bottom: 27px;
+}
+
 
 div#membercomponents{
     display: flex;
@@ -201,7 +217,13 @@ div.team{
     display: block;
 }
 
-div.team a{
+div.h2{
+    padding-bottom: 7px;
+}
+
+div.team p{
+    margin-top: 12.87px;
+    margin-bottom: 53px;
     width: 100%;
 }
 
@@ -210,8 +232,33 @@ div.team, div.team a{
     justify-content: left;
 }
 
+button.know{ 
+    width: 100%;
+}
 
-.know{ padding-inline: 170.5px; }
+div#carrosselarrow{
+    height: 35px;
+    width: 35px;
+    background-color: var(--darkcyan);
+    align-self: flex-end;
+}
+
+div.pics{
+    height: 527px;
+    width: 434px;
+    background-color: var(--darkcyan);
+}
+
+/* temporário */
+
+div#anna, div#elo, div#rach{
+    display: none;
+}
+
+div#annamaria,div#eloisa, div#raquel{
+    display: none;
+}
+
 
 /* Footer */
 
