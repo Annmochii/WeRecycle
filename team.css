@@ -18,7 +18,7 @@
 
 .slick-slide {
     transition: all ease-in-out .3s;
-    height: 48.796296296296296296296296296296vh;
+    height: 527px;
 }
 
 
@@ -47,4 +47,36 @@
 .slick-current {
     width: 30.138888888888888888888888888889vw !important;
     background-color: black;
+}
+
+@-webkit-keyframes slide-fwd-center {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateZ(0);
+                transform: translateZ(0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateZ(160px);
+                transform: translateZ(160px);
+    }
+}
+@keyframes slide-fwd-center {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateZ(0);
+                transform: translateZ(0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateZ(160px);
+                transform: translateZ(160px);
+    }
+}
+
+
+div.memberinfo{
+    height: 177px;
+    -webkit-animation: slide-fwd-center 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-fwd-center 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
