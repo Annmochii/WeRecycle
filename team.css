@@ -74,9 +74,9 @@
     }
 }
 
-
-div.memberinfo{
+div.team{
     height: 177px;
     -webkit-animation: slide-fwd-center 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	        animation: slide-fwd-center 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
+
