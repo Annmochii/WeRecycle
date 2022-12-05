@@ -212,6 +212,34 @@ div#header, header{
     background-color: var(--darkcyan);
 }
 
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    padding-top: 17px;
+    color: #F5F2EB;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    color:#F5F2EB;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    justify-content: center;
+}
+
 #navlogin{ padding-inline: 38px; }
 
 #navlogin:hover{ color: var(--darkcyan); }
@@ -219,6 +247,35 @@ div#header, header{
 #navsignup{ padding-inline: 22px; }
 
 /* Primeira página */
+
+section#firstview{
+    display: flex;
+    margin: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div#intro{
+    display: block;
+}
+
+h2#welcome{
+    color: #04454D;
+}
+
+h1#hero{
+    font-family: 'Lexend Exa', sans-serif;
+    font-size: 64px;
+    color:#04BA71;
+}
+
+h3#description{
+    color:#04454D;
+}
+
+img#hero{
+    width: 27vw;
+}
 
 /* Sobre */
 
