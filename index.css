@@ -279,6 +279,51 @@ img#hero{
 
 /* Sobre */
 
+section#sobre{
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.ideas{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.idea{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    width: 250px;
+}
+
+p.idea{
+    text-align: justify;
+    font-size: 14px;
+}
+
+img#icon1{
+    width: 80.36px;
+    height: 104px;
+    align-self: center;
+    margin-bottom: 5px;
+}
+
+img#icon2{
+    width: 189px;
+    height: 93px;
+    align-self: center;
+    margin-bottom: 14px;
+}
+
+img#icon3{
+    width: 106px;
+    height: 104px;
+    align-self: center;
+    margin-bottom: 5px;
+}
+
 /* Notícias */ 
 
 div#news, section#noticias{
