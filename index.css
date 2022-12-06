@@ -215,8 +215,8 @@ div#header, header{
 nav {
     display: flex;
     justify-content: space-evenly;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
 
 nav ul{
@@ -240,11 +240,19 @@ nav ul li a{
     justify-content: center;
 }
 
-#navlogin{ padding-inline: 38px; }
+button#navlogin{ 
+    padding-inline: 38px;
+    font-size: 14px;
+    padding: -10px;
+}
 
 #navlogin:hover{ color: var(--darkcyan); }
 
-#navsignup{ padding-inline: 22px; }
+button#navsignup{ 
+    padding-inline: 22px;
+    font-size: 14px;
+    padding: -10px;
+}
 
 /* Primeira página */
 
