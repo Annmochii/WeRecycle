@@ -358,37 +358,202 @@ img#icon3{
 
 /* Notícias */ 
 
-div#news, section#noticias{
-    background-color: var(--darkcyan);
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
-h1#newstitle{
-    color: var(--light)
+.hero{
+    background: #04454D;
+    height: 100vh;
+    width: 100%;
+    position: relative;
 }
 
-div.newarrowcontainer{
-    border-color: var(--light);
-    height: 65px;
-    width: 65px;
+.hero h1{
+    text-align: center;
+    margin-bottom: 100px;
+    padding-top: 100px;
+    font-size: 40px;
+    color:#F5F2EB;
 }
 
-div.newarrow{
-    height: 65px;
-    width: 65px;
+.id{
+    color: #04BA71;
+    justify-content: baseline;
 }
 
-div#lnewsarrow{
-    background-image: url("./imgs/arrow-left-light-vector.png");
-    background-size: 25%;
+.titulo{
+    margin-bottom: 13px;
 }
 
-div#rnewsarrow{
-    background-image: url("./imgs/arrow-right-light-vector.png");
-    background-size: 25%;
+.container{
+    width: 800px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
-div.report{
-    background-color: var(--light);
+.indicator{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -50px;
+}
+
+.btn{
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    margin: 4px;
+    border-radius: 15px;
+    background: #F5F2EB;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.active{
+    width: 35px;
+}
+
+.noticias{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.slide-row{
+    display: flex;
+    width: 3200px;
+    transition: 0.5s;
+}
+
+.slide-col{
+    width: 800px;
+    height: 400px;
+    position: relative;
+    margin-left: 45px;
+}
+
+.user-text .botao{
+    display: flex;
+    justify-content: center;
+    margin-top: 110px;
+}
+
+.user-text .botao button{
+    background: rgb(253, 199, 39);
+    outline: none;
+    border: none;
+    color: #04454D;
+    padding: 8px 22px;
+    border-radius: 2px;
+}
+
+.user-text .botao button:hover{
+    background: rgba(253, 200, 39, 0.5);
+    border: 1px solid #FDC827;
+}
+
+.user-text .botao2{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.user-text .botao2 button{
+    background: #FDC827;
+    outline: none;
+    border: none;
+    color: #04454D;
+    padding: 8px 22px;
+    border-radius: 2px;
+}
+
+.user-text .botao2 button:hover{
+    background: rgba(253, 200, 39, 0.5);
+    border: 1px solid #FDC827;
+}
+
+.user-text .botao3{
+    display: flex;
+    justify-content: center;
+    margin-top: 140px;
+}
+
+.user-text .botao3 button{
+    background: #FDC827;
+    outline: none;
+    border: none;
+    color: #04454D;
+    padding: 8px 22px;
+    border-radius: 2px;
+}
+
+.user-text .botao3 button:hover{
+    background: rgba(253, 200, 39, 0.5);
+    border: 1px solid #FDC827;
+}
+
+.user-text .botao4{
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+}
+
+.user-text .botao4 button{
+    background: #FDC827;
+    outline: none;
+    border: none;
+    color: #04454D;
+    padding: 8px 22px;
+    border-radius: 2px;
+}
+
+.user-text .botao4 button:hover{
+    background: rgba(253, 200, 39, 0.5);
+    border: 1px solid #FDC827;
+}
+
+.user-img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+
+.user-img img{
+    height: 100%;
+    width: 520px;
+    border-radius: 2px;
+}
+
+.user-text{
+    background: #F5F2EB;
+    width: 280px;
+    height: 400px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 2px;
+    color: #04454D;
+    padding: 45px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+
+.user-text p{
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.user-text h3{
+    margin: 25px 0 5px;
+    color: #04454D;   
 }
 
 
