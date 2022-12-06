@@ -489,7 +489,199 @@ div#annamaria,div#eloisa, div#raquel{
 
 /* Footer */
 
-div#footer, footer{
+div#footer{
     background-color: var(--darkcyan);
     color: var(--light);
+    height: 400px;
+    display: block;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 350px;
+    width: 80%;
+    margin: auto;
+}
+
+div.footerdiv {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Sobre a WeRecycle */
+
+div#footerabout {
+    width: 250px;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+div#footerlogo {
+    background-image: url("./imgs/logoWRfooter.png");
+    background-size: cover;
+    height: 60px;
+    width: 250px;
+    margin-top: 26px;
+}
+
+p#pfooter {
+    font-size: 16px;
+}
+
+/* Redes Sociais */
+
+div#socials {
+    width: 250px;
+    height: 300px;
+    justify-content: space-around;
+}
+
+h3.footertitle {
+    margin-top: 30px;
+}
+
+div.redesocial {
+    display: flex;
+    align-items: center;
+}
+
+a.clickable {
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+
+div#facebookicon {
+    background-image: url("./imgs/Facebook\ -\ Negative.png");
+    width: 18px;
+    height: 18px;
+}
+
+div#instagramicon {
+    background-image: url("./imgs/Instagram\ -\ Negative.png");
+    width: 18px;
+    height: 18px;
+}
+
+div#twittericon {
+    background-image: url("./imgs/Twitter\ -\ Negative.png");
+    width: 18px;
+    height: 18px;
+}
+
+div#wppicon {
+    background-image: url("./imgs/whatsapp.png");
+    width: 18px;
+    height: 18px;
+}
+
+/* Endereço */
+
+div#footeraddress {
+    width: 250px;
+    height: 300px;
+    justify-content: space-around;
+}
+
+div#endereco {
+    display: flex;
+    margin-bottom: 75px;
+}
+
+div#pinicon {
+    background-image: url("./imgs/Local-pin.png");
+    height: 18px;
+    width: 18px;
+    margin-top: 5px;
+}
+
+p#pendereco {
+    margin-left: 10px;
+    width: 232px;
+}
+
+/* Contato */
+
+div#footercontact {
+    width: 250px;
+    height: 300px;
+}
+
+p#ctt {
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+::placeholder {
+    color: #072d36;
+    opacity: 80%;
+    font-size: 11px;
+    font-family: 'Poppins', sans-serif;
+}
+
+form {
+    width: 250px;
+}
+
+div#form {
+    width: 250px;
+}
+
+textarea#mensagem {
+    margin-top: 3px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.form {
+    width: 220px;
+    height: 18px;
+    background-color:#93918D;
+    opacity: 60%;
+    border-radius: 3px;
+    border: none;
+}
+
+.formtxt {
+    width: 220px;
+    height: 50px;
+    background-color:#93918D;
+    opacity: 60%;
+    border-radius: 3px;
+    border: none;
+}
+
+h3.footertitle3 {
+    margin-top: 50px;
+}
+
+input.buttom {
+    border-radius: 1px;
+    border: none;
+    width: 80px;
+    box-shadow: none;
+    font-family: 'Poppins', sans-serif;
+    background-color: #04BA71;
+    color: white;
+    font-size: 12px;
+}
+
+/* Desenvolvedores */
+
+div#devs {
+    width: 100%;
+    height: 50px;
+    background-color:#072C35;
+    display: flex;
+    align-items: center;
+}
+
+p#devas {
+    font-size: 11px;
+    width: 100%;
+    text-align: center;
 }

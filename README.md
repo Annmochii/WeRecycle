@@ -24,6 +24,6 @@ Foi feito em grupo com foco principal em criar um website especializado na colet
     - Portfólio  
     - Equipe  
     - Contato existente e funcional  
-- Upload no Github e link no Github pages  
+- Upload no Github e ink no Github pages  
 - Upload no servidor da UVV  
 - Fluxo de integração com o Github Actions  

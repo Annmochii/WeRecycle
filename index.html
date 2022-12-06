@@ -172,53 +172,55 @@
     </main>
     <div class="webcontainer" id="footer">
         <footer>
-            <h1 id="contact">Contato</h1>
             <div class="footerdiv" id="footerabout"> <!--sobre-->
                 <div id="footerlogo"></div>
-                <p>A WeRecycle é um projeto criado com intuito educativo por uma instituição privada e seus alunos, e tem como objetivo aprimorar o conhecimento adquirido ao longo do primeiro semestre do curso de Ciência da Computação.</p>
+                <p id="pfooter">A WeRecycle é um projeto criado com intuito educativo e tem como objetivo aprimorar o conhecimento adquirido pelo alunos ao longo do primeiro semestre do curso de Ciência da Computação.</p>
             </div>
             <div class="footerdiv" id="socials"> <!--redes sociais-->
                 <h3 class="footertitle">Redes sociais</h3>
                 <div class="redesocial">
                     <div id="facebookicon"></div> <!--ícone do facebook-->
-                    <h3 class="clickable" id="facebooklink">WeRecycle</h3>
+                    <a class="clickable" href="https://www.facebook.com/eloisapsl/" target="_blank" id="facelink">Facebook</a>
                 </div>
                 <div class="redesocial">
                     <div id="instagramicon"></div> <!--ícone do instagram-->
-                    <h3 class="clickable" id="instagramlink">WeRecycle</h3>
+                    <a class="clickable" href="https://www.instagram.com/eloisapajehu" target="_blank" id="instalink">Instagram</a>
                 </div>
                 <div class="redesocial">
                     <div id="twittericon"></div> <!--ícone do twitter-->
-                    <h3 class="clickable" id="twitterlink">WeRecycle</h3>
+                    <a class="clickable" href="https://twitter.com/mmeioambiente" target="_blank" id="ttlink">Twitter</a>
                 </div>
                 <div class="redesocial">
-                    <div id="emailicon"></div> <!--ícone do email-->
-                    <h3 id="email">WeRecycle</h3>
+                    <div id="wppicon"></div> <!--ícone do whatsapp-->
+                    <a class="clickable" href="https://wa.me/5527999132287" target="_blank" id="wpplink">WhatsApp</a>
                 </div>
             </div>
             <div class="footerdiv" id="footeraddress"> <!--endereço-->
                 <h3 class="footertitle">Endereço</h3>
-                <div>
+                <div id="endereco">
                     <div id="pinicon"></div> <!--ícone do endereço-->
-                    <p>Av. Comissário José Dantas de Mello, 21. <br> Boa Vista - Vila Velha ES. <br> CEP 29102-902.</p>
+                    <p id="pendereco">Av. Comissário José Dantas de Mello, 21. <br> Boa Vista - Vila Velha ES. <br> CEP 29102-902.</p>
                 </div>
             </div>
             <div class="footerdiv" id="footercontact"> <!--contato-->
-                <h3 class="footertitle">Contato</h3>
-                <p>Entre em contato conosco para dúvidas, sugestões e outras informações!</p>
+                <h3 class="footertitle3">Diga Olá!</h3>
+                <p id="ctt">Entre em contato para dúvidas, sugestões e outras informações!</p>
                 <form action="/action_page.php">
                     <div id="form">
                         <input type="text" class="form" id="nome" placeholder="Nome" required>
                         <input type="text" class="form" id="sobrenome" placeholder="Sobrenome" required><br>
                         <input type="text" class="form" id="email" placeholder="E-mail" required><br>
                     </div>
-                    <br>
-                    <textarea class="form" id="mensagem" rows="10" cols="30" placeholder="Nos conte como podemos ajudar..."></textarea>
-                    <br><br>
-                    <a href="./scr/index.html"><input type="submit" class="buttom" value="Enviar mensagem"></a>
+                    <textarea class="formtxt" id="mensagem" rows="4" cols="30" placeholder="Como podemos te ajudar?"></textarea>
+                    <a id="botao" href="./scr/index.html"><input type="submit" class="buttom" value="Enviar"></a>
                 </form>
             </div>
         </footer>
+        <div id="devs">
+            <p id="devas">
+                Página desenvolvida por Anna Maria Lima, Ana Laura Brito, Eloisa Pajehú e Raquel Rigoni.
+            </p>
+        </div>
     </div>
     <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
     <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
