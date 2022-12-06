@@ -279,7 +279,9 @@ h2#welcome{
 }
 
 h1#hero{
-    font-family: 'Lexend Exa', sans-serif;!important
+    font-family: 'Lexend Exa', sans-serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: 64px;
     color:#04BA71;
 }
