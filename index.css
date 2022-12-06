@@ -276,6 +276,9 @@ div#intro{
 
 h2#welcome{
     color: #04454D;
+    margin: -2px;
+    padding: 0px;
+    border: 0px;
 }
 
 h1#hero{
@@ -284,10 +287,21 @@ h1#hero{
     font-style: normal;
     font-size: 64px;
     color:#04BA71;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
 }
 
 h3#description{
     color:#04454D;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+button#mainsignup{
+    font-size: 14px;
+    margin-top: 20px;
 }
 
 img#hero{
