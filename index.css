@@ -212,6 +212,11 @@ div#header, header{
     background-color: var(--darkcyan);
 }
 
+img#logo{
+    margin-top: 5px;
+    height: 40px;
+}
+
 nav {
     display: flex;
     justify-content: space-evenly;
@@ -225,6 +230,7 @@ nav ul{
     width: 40%;
     padding-top: 17px;
     color: #F5F2EB;
+    margin-left: 100px;
 }
 
 nav ul li{
