@@ -35,7 +35,6 @@ main section h3, main section p, main section h4, main section h5{
 /* Fonte super-large */
 main section h1{
     font-size: 30px;
-    display: flex;
     padding-bottom: 30px;
 }
 
@@ -201,12 +200,6 @@ main section, header, footer{
     background-clip: border-box;
 }
 
-
-
-
-
-
-
 /* Barra de navegação */
 div#header, header{
     background-color: var(--darkcyan);
@@ -317,7 +310,7 @@ section#sobre{
 
 .ideas{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -358,17 +351,46 @@ img#icon3{
 
 /* Notícias */ 
 
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
+div#news.webcontainer{
+    background-color: var(--darkcyan);
+}
+
+main section#noticias{
+    width: 1020px;
+    background-color: var(--darkcyan);
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+div.newarrowcontainer{
+    border-color: var(--light);
+    height: 65px;
+    width: 65px;
+}
+
+div.newarrow{
+    height: 65px;
+    width: 65px;
+}
+
+div#lnewsarrow{
+    background-image: url("./imgs/arrow-left-light-vector.png");
+    background-size: 25%;
+}
+
+div#rnewsarrow{
+    background-image: url("./imgs/arrow-right-light-vector.png");
+    background-size: 25%;
 }
 
 .hero{
     background: #04454D;
     height: 100vh;
-    width: 100%;
+    width: 800px;
     position: relative;
+    justify-content: center;
+    justify-self: center;
 }
 
 .hero h1{
@@ -389,7 +411,7 @@ img#icon3{
 }
 
 .container{
-    width: 800px;
+    width: 755px;
     height: 400px;
     position: absolute;
     top: 50%;
@@ -428,94 +450,22 @@ img#icon3{
 .slide-row{
     display: flex;
     width: 3200px;
+    justify-content: space-between;
     transition: 0.5s;
 }
 
 .slide-col{
-    width: 800px;
+    width: 755px;
     height: 400px;
     position: relative;
-    margin-left: 45px;
 }
 
-.user-text .botao{
-    display: flex;
+button.show{
     justify-content: center;
-    margin-top: 110px;
-}
-
-.user-text .botao button{
-    background: rgb(253, 199, 39);
-    outline: none;
-    border: none;
-    color: #04454D;
-    padding: 8px 22px;
-    border-radius: 2px;
-}
-
-.user-text .botao button:hover{
-    background: rgba(253, 200, 39, 0.5);
-    border: 1px solid #FDC827;
-}
-
-.user-text .botao2{
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-.user-text .botao2 button{
-    background: #FDC827;
-    outline: none;
-    border: none;
-    color: #04454D;
-    padding: 8px 22px;
-    border-radius: 2px;
-}
-
-.user-text .botao2 button:hover{
-    background: rgba(253, 200, 39, 0.5);
-    border: 1px solid #FDC827;
-}
-
-.user-text .botao3{
-    display: flex;
-    justify-content: center;
-    margin-top: 140px;
-}
-
-.user-text .botao3 button{
-    background: #FDC827;
-    outline: none;
-    border: none;
-    color: #04454D;
-    padding: 8px 22px;
-    border-radius: 2px;
-}
-
-.user-text .botao3 button:hover{
-    background: rgba(253, 200, 39, 0.5);
-    border: 1px solid #FDC827;
-}
-
-.user-text .botao4{
-    display: flex;
-    justify-content: center;
-    margin-top: 75px;
-}
-
-.user-text .botao4 button{
-    background: #FDC827;
-    outline: none;
-    border: none;
-    color: #04454D;
-    padding: 8px 22px;
-    border-radius: 2px;
-}
-
-.user-text .botao4 button:hover{
-    background: rgba(253, 200, 39, 0.5);
-    border: 1px solid #FDC827;
+    align-items: center;
+    width: 155px;
+    height: 50px;
+    align-self: center;
 }
 
 .user-img{
@@ -544,6 +494,9 @@ img#icon3{
     padding: 45px;
     box-sizing: border-box;
     z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .user-text p{
@@ -639,10 +592,7 @@ section#pictures{
 div.pics{
     height: 527px;
     width: 434px;
-    background-color: var(--darkcyan);
 }
-
-/* Equipe - temporário */
 
 div#anna, div#elo, div#rach{
     display: none;
@@ -650,6 +600,95 @@ div#anna, div#elo, div#rach{
 
 div#annamaria,div#eloisa, div#raquel{
     display: none;
+}
+
+/* Equipe - slick */
+
+.slider {
+    width: 50.694444444444444444444444444444vw;
+}
+
+.slick-next{
+    display: none !important;
+}
+
+.slick-slide {
+    margin: 0px 31px 0px 0px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: black;
+}
+
+
+.slick-slide {
+    transition: all ease-in-out .3s;
+    height: 527px !important;
+    background-position: center;
+}
+
+
+.slick-slide:nth-of-type(4), .slick-slide:nth-of-type(8){
+    background-image: url('./imgs/aura.jpeg');
+    background-position: center;
+    background-size: cover;
+    }
+.slick-slide:nth-of-type(5), .slick-slide:nth-of-type(9){
+    background-image: url('./imgs/anna.JPEG');
+    background-position: center;
+    background-size: cover;
+}
+.slick-slide:nth-of-type(6){
+    background-image: url('./imgs/foto_eloisa.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.slick-slide:nth-of-type(7){
+    background-image: url('./imgs/raquel.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.slick-active {
+    background-color: black;
+    width: 10.833333333333333333333333333333vw !important;
+}
+
+.slick-current {
+    width: 30.138888888888888888888888888889vw !important;
+    background-color: black;
+}
+
+@-webkit-keyframes slide-fwd-center {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateZ(0);
+                transform: translateZ(0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateZ(160px);
+                transform: translateZ(160px);
+    }
+}
+@keyframes slide-fwd-center {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateZ(0);
+                transform: translateZ(0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateZ(160px);
+                transform: translateZ(160px);
+    }
+}
+
+div.team{
+    height: 177px;
+    -webkit-animation: slide-fwd-center 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-fwd-center 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 /* Footer */
@@ -664,10 +703,10 @@ div#footer{
 footer {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 350px;
-    width: 80%;
     margin: auto;
+    width: 1220px
 }
 
 div.footerdiv {
@@ -701,14 +740,14 @@ p#pfooter {
 /* Redes Sociais */
 
 div#socials {
-    width: 250px;
+    width: 140px;
     height: 300px;
     justify-content: space-around;
 }
 
 h3.footertitle {
     margin-top: 30px;
-    margin bottom: 2px;
+    margin-bottom: 2px;
 }
 
 div.redesocial {
