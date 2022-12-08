@@ -235,14 +235,14 @@
             <div class="footerdiv" id="footercontact"> <!--contato-->
                 <h3 class="footertitle3">Diga Olá!</h3>
                 <p id="ctt">Entre em contato para dúvidas, sugestões e outras informações!</p>
-                <form action="/action_page.php">
+                <form method="POST" action="./contato.php">
                     <div id="form">
-                        <input type="text" class="form" id="nome" placeholder="Nome" required>
-                        <input type="text" class="form" id="sobrenome" placeholder="Sobrenome" required><br>
-                        <input type="text" class="form" id="email" placeholder="E-mail" required><br>
+                        <input type="text" class="form" id="nome" name="name" placeholder="Nome" required>
+                        <input type="text" class="form" id="sobrenome" name="surname" placeholder="Sobrenome" required><br>
+                        <input type="text" class="form" id="email" name="email" placeholder="E-mail" required><br>
                     </div>
-                    <textarea class="formtxt" id="mensagem" rows="4" cols="30" placeholder="Como podemos te ajudar?"></textarea>
-                    <a id="botao" href="./scr/index.html"><input type="submit" class="buttom" value="Enviar"></a>
+                    <textarea class="formtxt" id="mensagem" rows="4" cols="30" name="message" placeholder="Como podemos te ajudar?"></textarea>
+                    <input type="submit" class="buttom" value="Enviar">
                 </form>
             </div>
         </footer>
